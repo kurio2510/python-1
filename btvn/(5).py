@@ -1,5 +1,5 @@
-number_str = input("Nhập chuỗi số (0 hoặc 1): ")
-
-boolean_value = bool(int(number_str))
-
-print("Giá trị boolean sau khi chuyển đổi là:", boolean_value)
+n = int(input("Nhap mot so nguyen duong: "))
+giai_thua = 1
+for i in range(1, n + 1):
+    giai_thua *= i
+print("Giai thua cua", n, "la:", giai_thua)
