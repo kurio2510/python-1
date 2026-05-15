@@ -1,9 +1,5 @@
-a = 10
-b = 5.5
-c = "Python"
-d = True
-
-print(a, type(a))
-print(b, type(b))
-print(c, type(c))
-print(d, type(d))
+n = int(input("Nhap mot so nguyen: "))
+if n % 2 == 0:
+    print("So vua nhap la so chan")
+else:
+    print("So vua nhap la so le")
